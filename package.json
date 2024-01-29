@@ -1,7 +1,7 @@
 {
   "name": "cmlabs-backend-crawler-freelance-test",
   "version": "1.0.0",
-  "description": "CMLabs Backend Crawler - Freelance Test",
+  "description": "cmlabs Backend Crawler - Freelance Test",
   "main": "app.js",
   "standard": {
     "ignore": [
