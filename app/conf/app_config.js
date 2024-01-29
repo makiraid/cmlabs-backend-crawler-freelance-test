@@ -5,7 +5,7 @@ const config = {
     environment: process.env.NODE_ENV,
     log_level: process.env.LOG_LEVEL,
     timezone: process.env.TZ,
-    hostname: process.env.HOSTNAME
+    base_url: process.env.BASE_URL
   },
   database: {
     host: process.env.DB_HOST,
