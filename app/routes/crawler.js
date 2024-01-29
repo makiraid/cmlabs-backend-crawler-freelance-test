@@ -7,9 +7,8 @@ const Crawler = require('../lib/crawler')
 
 router.post('/api', CrawlerRequirement.crawl, (req, res, next) => {
   const { url } = req.query
-  const { host } = req.headers
 
-  return Crawler.process(url, host)
+  return Crawler.process(url)
     .then(response => res.json(response))
     .catch(error => next(error))
 })

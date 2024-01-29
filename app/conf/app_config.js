@@ -4,7 +4,8 @@ const config = {
   application: {
     environment: process.env.NODE_ENV,
     log_level: process.env.LOG_LEVEL,
-    timezone: process.env.TZ
+    timezone: process.env.TZ,
+    hostname: process.env.HOSTNAME
   },
   database: {
     host: process.env.DB_HOST,

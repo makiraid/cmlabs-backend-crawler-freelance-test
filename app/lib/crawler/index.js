@@ -7,6 +7,10 @@ const Scraper = require('../scraper')
 const urlParser = require('../../helper/urlParser')
 const ServiceError = require('../../errors/ServiceError')
 
+const AppConfig = require('../../conf/app_config')
+
+const { application: { hostname } } = AppConfig.getConfig()
+
 class Crawler {
   /**
    * Asynchronously processes the given URL and host.
@@ -24,7 +28,7 @@ class Crawler {
         return {
           status: false,
           message: 'already exists',
-          data: `${host}/output/${urlParser(url)}`
+          data: `${hostname}/output/${urlParser(url)}`
         }
       }
 
