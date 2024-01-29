@@ -1,0 +1,13 @@
+.partnership-highlight {
+    display: flex;
+    max-width: 202px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: var(--dark-70, #252a38);
+}

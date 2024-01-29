@@ -1,0 +1,1 @@
+(()=>{var e=document.querySelectorAll(".campaign-modal").length,t=document.getElementById("campaign-modal-btn");if(e>0)var n=new bootstrap.Modal(document.getElementById("campaignModal")),a=setTimeout((function(){n.show()}),3e4);t.addEventListener("click",(function(){clearTimeout(a)}))})();

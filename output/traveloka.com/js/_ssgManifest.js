@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fuser\u002Fplayground\u002Fcontentssg","\u002Fdiagnostics","\u002F","\u002F404","\u002Fv1","\u002Faffiliatepartner\u002F[affiliateId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
