@@ -16,7 +16,7 @@ middlewareComponent.init(app)
 middlewareHandler.init(app)
 
 routes(app)
-app.use('/output', express.static('result'))
+app.use('/output', express.static('output'))
 
 middlewareHandler.errors(app)
 
